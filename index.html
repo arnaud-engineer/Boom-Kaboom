@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<!-- ENCODAGE -->
+			<meta charset="utf-8" />
+		<!-- PAGE INFO -->
+			<title>BOOM-KABOOM</title>
+		<!-- RESPONSIVENESS -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<!-- CSS -->
+			<link rel="stylesheet" href="crt-screen.css" />
+			<link rel="stylesheet" href="style.css" />
+		<!-- JavaScript (ORDER : https://support.freshmarketer.com/support/solutions/articles/50000001426-synchronous-and-asynchronous-script-execution )-->
+			<script src="text.js"></script>
+			<script src="script.js"></script>
+	</head>
+
+	<body>
+
+		<main>
+
+			<div id="menu">
+
+
+				<div id="countdown">
+					<span class="label">countdown</span>
+					<span class="time"><span id="seconds"></span>:<span id="rest"></span></span>
+					<span id="recommandation"></span>
+				</div>
+			</div>
+
+			
+
+			<div class="container">
+				<noscript>JavaScript is currently disabled on your browser, to enhanced your browsing experience you should activate it : <a href="https://www.enable-javascript.com">see how</a></noscript>
+
+
+				<div id="current-line"><noscript>JavaScript is currently disabled on your browser, to enhanced your browsing experience you should activate it : <a href="https://www.enable-javascript.com">see how</a></noscript></div>
+
+			</div>
+
+			<div id="ui-container">
+				<div id="ui">
+					<div id="ui-menu">
+						<ul>
+							<li class="dropdown">
+								<a href="javascript:void(0)" class="dropbtn">Fichier</a>
+								<div class="dropdown-content">
+									<a onClick="window.print();">Imprimer</a> <!-- lol -->
+									<a onClick="hideApp('bug');">Exporter</a> <!-- bug, obligé de relancer le programme -->
+									<a onClick="hideApp('confidential data');">À propos</a>
+									<a onClick="hideApp('closed');">Fermer le programme</a>
+								</div>
+							</li>
+							<li class="dropdown">
+								<a href="javascript:void(0)" class="dropbtn">Édition</a>
+								<div class="dropdown-content">
+									<a onClick="">Afficher les opérations</a>
+								</div>
+							</li>
+							<li><a onClick="">Aide</a></li> <!-- écran d'aide -->
+						</ul>
+					</div>
+
+					<h1>OPÉRATIONS</h1>&nbsp;&nbsp;&nbsp;&nbsp;
+					<label for="name">Search by ID</label>&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" id="name" name="name" maxlength="9" size="14" placeholder="ex : #10000001">
+				</div>
+			</div>
+
+		</main>
+
+	</body>
+</html>
