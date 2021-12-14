@@ -1013,7 +1013,7 @@ async function step3()
 							"ASTUCE : Au besoin, vous référer à l'aide intégrée : [ help ]");
 			step4();
 		}
-		else if(step == 3 && isConnectingAsRoot == true && currentInput == "0000" && submittedInput == true) { // TODO : "QzEfb0n6@,56.apw/z"
+		else if(step == 3 && isConnectingAsRoot == true && currentInput == "QzEfb0n6@,56.apw/z" && submittedInput == true) { // TODO : "QzEfb0n6@,56.apw/z"
 			clearInterval(st3);
 			submittedInput = false;
 			pauseKeyDetection();
